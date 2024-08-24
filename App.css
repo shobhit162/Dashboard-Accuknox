@@ -1,0 +1,78 @@
+.app {
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    text-align: center;
+    padding: 20px;
+    background-color: #4c6ef5;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.search-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.search-input {
+    width: 60%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    outline: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.search-input:focus {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.side-panel {
+    position: fixed;
+    top: 0;
+    right: -445px;
+    width: 400px;
+    height: 100%;
+    background-color: white;
+    box-shadow: -2px 0 5px rgba(0,0,0,0.2);
+    transition: right 0.3s ease-in-out;
+    z-index: 1000;
+    padding: 20px;
+}
+
+.side-panel.open {
+    right: 0;
+}
+
+.close-panel {
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: #888;
+    cursor: pointer;
+    float: right;
+}
+
+.panel-content {
+    margin-top: 40px;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.add-widget-btn {
+    padding: 10px 20px;
+    background-color: #4c6ef5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

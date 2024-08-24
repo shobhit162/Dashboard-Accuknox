@@ -1,0 +1,20 @@
+{
+    "categories": [
+      {
+        "name": "CSPM Executive Dashboard",
+        "widgets": [
+          { "name": "Cloud Accounts", "content": "Random Text for Cloud Accounts" },
+          { "name": "Cloud Account Risk Assessment", "content": "Random Text for Risk Assessment" }
+        ]
+      },
+      {
+        "name": "CWPP Dashboard",
+        "widgets": []
+      },
+      {
+        "name": "Registry Scan",
+        "widgets": []
+      }
+    ]
+  }
+  

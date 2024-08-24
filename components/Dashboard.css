@@ -1,0 +1,13 @@
+.dashboard {
+    padding: 20px;
+}
+
+.category {
+    margin-bottom: 20px;
+}
+
+.widget-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
